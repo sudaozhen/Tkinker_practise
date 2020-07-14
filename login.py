@@ -8,7 +8,7 @@ window.geometry('450x300')
 
 #wellcome image 
 canvas = tk.Canvas(window, height=200, width=500)
-image_file = tk.PhotoImage(file='E:\onedrive\Issauto\project\serial\pythontest\welcome.gif')
+image_file = tk.PhotoImage(file='C:\welcome.gif')
 image = canvas.create_image(0,0,anchor='nw', image=image_file)
 canvas.pack(side='top')
 
