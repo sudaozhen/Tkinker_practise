@@ -5,7 +5,7 @@ window.title('my window')
 window.geometry('200x200')
 
 canvas = tk.Canvas(window,bg='blue',height=100,width=200)
-image_file = tk.PhotoImage(file='E:\onedrive\Issauto\project\serial\ins.gif')
+image_file = tk.PhotoImage(file='ins.gif')
 image = canvas.create_image(0,0,anchor='nw',image=image_file)
 #  nw 以图片的左上角为基点，放在0，0坐标。
 #  nw        n        ne
